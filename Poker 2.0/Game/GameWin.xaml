@@ -1,0 +1,49 @@
+﻿<Window x:Class="Poker_2._0.Game.GameWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poker_2._0.Game"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Poker Texas Holdem" Icon="/Poker 2.0;component/Images/icon.png" Height="900" Width="1440">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Poker 2.0;component/Images/bg.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="536*"/>
+            <RowDefinition Height="77*"/>
+            <RowDefinition Height="174*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="3" Grid.Column="2">
+            <Button x:Name="RaiseButton" Content="Raise" Margin="25" Grid.Row="2" Grid.Column="2" FontSize="50" Click="RaiseButton_Click"/>
+            <TextBox x:Name="RaiseBetBlock" Padding="10" Margin="5"/>
+        </StackPanel>
+        <Button x:Name="CheckButton" Content="Check" Margin="25" Grid.Row="3" Grid.Column="0" FontSize="50" Click="CheckButton_Click"/>
+        <Button x:Name="CallButton" Content="Call" Margin="25" Grid.Row="3" Grid.Column="1" FontSize="50" Click="CallButton_Click"/>
+        <Button x:Name="FoldButton" Content="Fold" Margin="25" Grid.Row="3" Grid.Column="3" FontSize="50" Click="FoldButton_Click"/>
+        <TextBlock x:Name="MoneyText" Grid.Row="2" Grid.Column="0" TextAlignment="Center" FontSize="42" Background="White" Margin="5"/>
+        <TextBlock x:Name="BankText" Grid.Row="2" Grid.Column="3" TextAlignment="Center" FontSize="42" Background="White" Margin="5"/>
+        <TextBlock x:Name="PlCArd1" Grid.Row="2" Grid.Column="1" TextAlignment="Center" FontSize="40" Background="White" Margin="5"/>
+        <TextBlock x:Name="PlCArd2" Grid.Row="2" Grid.Column="2" TextAlignment="Center" FontSize="40" Background="White" Margin="5"/>
+        <TextBlock x:Name="BotMoney" Grid.Column="0" Margin="10" Grid.Row="0" FontSize="42" TextAlignment="Center" Background="White"/>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock Padding="5" Margin="5" Text="Cards:" FontSize="40" TextAlignment="Center" Foreground="white"/>
+            <TextBlock x:Name="Card1" Padding="5" Margin="5" FontSize="40" TextAlignment="Center" Foreground="white"/>
+            <TextBlock x:Name="Card2" Padding="5" Margin="5" FontSize="40" TextAlignment="Center" Foreground="white"/>
+            <TextBlock x:Name="Card3" Padding="5" Margin="5" FontSize="40" TextAlignment="Center" Foreground="white"/>
+            <TextBlock x:Name="Card4" Padding="5" Margin="5" FontSize="40" TextAlignment="Center" Foreground="white"/>
+            <TextBlock x:Name="Card5" Padding="5" Margin="5" FontSize="40" TextAlignment="Center" Foreground="white"/>
+        </StackPanel>
+        <TextBlock x:Name="BotCard1" Grid.Column="1" TextAlignment="Center" FontSize="40" Background="White" Margin="5"/>
+        <TextBlock x:Name="BotCard2" Grid.Column="2" TextAlignment="Center" FontSize="40" Background="White" Margin="5"/>
+    </Grid>
+</Window>

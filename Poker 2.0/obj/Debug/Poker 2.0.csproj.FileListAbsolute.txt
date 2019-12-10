@@ -1,0 +1,25 @@
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\Poker 2.0.exe.config
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\Poker 2.0.exe
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\Poker 2.0.pdb
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0.csprojAssemblyReference.cache
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\MainWindow.g.cs
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\App.g.cs
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0_MarkupCompile.cache
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0_MarkupCompile.lref
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\MainWindow.baml
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0.g.resources
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker_2._0.Properties.Resources.resources
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0.csproj.GenerateResource.cache
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0.exe
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0.pdb
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\RegWin.g.cs
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\RegWin.baml
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Game\GameWin.g.cs
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Game\GameWin.baml
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\Users.db
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\Dapper.dll
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\System.Data.SQLite.dll
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\Dapper.xml
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\System.Data.SQLite.xml
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\bin\Debug\System.Data.SQLite.dll.config
+D:\учебная херобрань\програмки\Poker 2.0\Poker 2.0\obj\Debug\Poker 2.0.csproj.CopyComplete
